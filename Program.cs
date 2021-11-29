@@ -17,7 +17,7 @@ namespace Tabuada
             Console.WriteLine(" * Insira um número inteiro\n   e receba a sua tabuada.\n");
 
             Console.Write("Digite um número inteiro: ");
-            realInt = Int32.TryParse(Console.ReadLine(), out numeroDigitado);;
+            realInt = Int32.TryParse(Console.ReadLine(), out numeroDigitado);
 
             if (realInt)
             {
